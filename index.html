@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joel Deodhar Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Joel Deodhar"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Joel Deodhar">Joel Deodhar</h1>
+            <div class="container">
+              <p class="title">Machine Learning Engineering</p>
+              <p class="title">Software Engineering</p>
+            </div>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:jdeodhar@uwaterloo.ca" class="contact-link"
+                  >jdeodhar@uwaterloo.ca</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+1 (647) 385 2335</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">March 18, 2002</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Ontario, Canada</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/Joel-De" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/joel-deodhar/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a passionate 4th Year Computer Engineering student at the
+              university of Waterloo with a passion for Scalable Software
+              Engineering & Machine Learning. I love working on the cutting edge
+              and solving new and complex problems in a variety of domains. I
+              excel at working in cross domain teams and thrive in colaborative
+              environemnts.
+            </p>
+
+            <p></p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/developer.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                  <p class="service-item-text">
+                    Analyzing and Integrating various state of the art ML Models
+                    into scalable enterprise grade systems.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/laptop-dev-mode.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Software Engineering</h4>
+
+                  <p class="service-item-text">
+                    Designing systems and setting the standard for best
+                    practices in all my workplaces.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/brain-research.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Researching</h4>
+
+                  <p class="service-item-text">
+                    Researching optimization (compiling) of LLMs on VLIW Vector
+                    processors seen in various NPUs
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/box3d-point.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">3D Design</h4>
+
+                  <p class="service-item-text">
+                    Creating innovative designs and prototyping them in the real
+                    world.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+          <!-- 
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <!-- <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section> -->
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Computer Engineering @ University of Waterloo
+                  <span style="float: right">2020-2025</span>
+                </h4>
+                <div>
+                  <p class="timeline-text-full" max-width="100%">
+                    Candidate for a BSc studying Computer Engineering.
+                    <span style="float: right">3.8/4.0 GPA</span>
+                  </p>
+                </div>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <div style="clear: both">
+                  <h4 class="h4 timeline-item-title">
+                    IBM &nbsp | &nbsp Machine Learning Engineering Intern
+                    <span style="float: right">Jan 2024 — Present</span>
+                  </h4>
+                </div>
+
+                <p class="timeline-text">
+                  • Adding LLM support to Falcon, an end-to-end ML lifecycle
+                  development accelerator built using Kubernetes, MlFlow ,
+                  Prometheus, Grafana & LangChain
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div style="clear: both">
+                  <h4 class="h4 timeline-item-title">
+                    University of Waterloo &nbsp | &nbsp Undergraduate Research
+                    Assistant
+                    <span style="float: right">Sept. 2023 — Present</span>
+                  </h4>
+                </div>
+
+                <p class="timeline-text">
+                  • Researching optimization of LLM inference on VLIW AI Vector
+                  Compute Engines W, wrote high performance int8 kernels for
+                  deep learning modules/ops including Transformers, GeLU,
+                  Softmax & LayerNorm in C++ • Developing PyTorch to VLIW vector
+                  engine compiler using C++ & MLIR
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div style="clear: both">
+                  <h4 class="h4 timeline-item-title">
+                    Siemens &nbsp | &nbsp Software Engineering Intern
+                    <span style="float: right">Jan. 2023 — April 2023</span>
+                  </h4>
+                </div>
+
+                <p class="timeline-text">
+                  • Rearchitected data collection service used for aggregating
+                  positional data from 100+ BLE sensors through Kafka streams,
+                  transformed unstable monolith into scalable microservices
+                  system increasing uptime by 24%
+                </p>
+                <p class="timeline-text">
+                  • Implemented 3 scalable microservices for collecting /
+                  processing data leveraging multithreading, and handling user
+                  requests using FastAPI , PostgreSQL, Redis, MLFlow and Celery
+                </p>
+
+                <p class="timeline-text">
+                  • Engineered intuitive frontend to interface with backend
+                  service enabling real-time, data collection with live metrics
+                  using ReactJS , eliminating user error by 50%
+                </p>
+
+                <p class="timeline-text">
+                  • Created CI/CD pipelines to automate deployment of data
+                  collection service on AWS ECS via Terraform and Jenkins
+                  resulting in reduction of prior manual deployment time by 94%
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div style="clear: both">
+                  <h4 class="h4 timeline-item-title">
+                    MappedIn &nbsp | &nbsp Machine Learning Engineering Intern
+                    <span style="float: right">May 2022 — Aug.2022</span>
+                  </h4>
+                </div>
+
+                <p class="timeline-text">
+                  • Engineered a cloud-ready machine learning data processing
+                  pipeline, creating an API to fetch, store, and process data
+                  using Azure Blob Storage, automation resulted in reduction of
+                  manual processing time by 35%
+                </p>
+                <p class="timeline-text">
+                  • Rapidly prototyped a floorplan door recognition model using
+                  Yolov5 , achieving an IoU of 87%, integrated trained model in
+                  frontend application using ReactJS , reducing data labelling
+                  time by 10%
+                </p>
+
+                <p class="timeline-text">
+                  • Authored an algorithm using image processing in conjunction
+                  with a Generative AI deep learning model (GAN) transforming
+                  images of floor plans into vectorized documents
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div style="clear: both">
+                  <h4 class="h4 timeline-item-title">
+                    Eon Media &nbsp | &nbsp Machine Learning Engineering Intern
+                    <span style="float: right">Sept. 2021 — Dec. 2021</span>
+                  </h4>
+                </div>
+
+                <p class="timeline-text">
+                  • Designed a horse tracking solution using an RTSP stream as
+                  input leveraging Yolov4 and Siamese Networks, reliably tracked
+                  up to 12 horses, processing a frame every 100ms
+                </p>
+                <p class="timeline-text">
+                  • Rearchitected a logo recognition solution, extracting logo
+                  occurrence data from videos, used profiling techniques to
+                  identify and remove bottlenecks increasing throughput by 5x,
+                  enabling real-time processing of live-streams
+                </p>
+
+                <p class="timeline-text">
+                  • Innovative ideas and improvements resulted in aforementioned
+                  logo detection solution winning an Innovation award at CES
+                  2022 W in streaming
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div style="clear: both">
+                  <h4 class="h4 timeline-item-title">
+                    Allied Media &nbsp | &nbsp Machine Learning Engineering
+                    Intern
+                    <span style="float: right">Jan. 2021 — April 2021</span>
+                  </h4>
+                </div>
+
+                <span></span>
+
+                <p class="timeline-text">
+                  • Researched and developed a novel Graph Neural Network
+                  architecture with PyTorch Geometric capable of extracting
+                  tables from invoice documents, implemented model achieved an
+                  accuracy of over 85%
+                </p>
+                <p class="timeline-text">
+                  • Created multiple NLP solutions for document analysis tasks
+                  using TensorFlow and PyTorch including table detection,
+                  document classification and named entity recognition with BERT
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Software Engineering</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Machine Learning</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">System Design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Frontend</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Software Engineering</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Hardware & Embedded</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Machine Learning</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>3D Design</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Software Engineering</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Hardware & Embedded</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Machine Learning</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>3D Design</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+              >
+                <a
+                  href="https://medium.com/@joeldeodhar/are-apple-amazon-always-listening-to-you-an-analysis-of-low-resource-keyword-detection-89e98e85d94c"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/keyword-detection.gif"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Low Resource Speech Recognition</h3>
+                  <p class="project-category">
+                    Researched and implemented a low resource speech detection
+                    model from scratch, capable of recognizing specific
+                    wake-words with under ~10k parameters used in total
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+              >
+                <a
+                  href="https://github.com/Joel-De/Video-Surveillance-system"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/video-surveillance.gif"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Video Surveillance System</h3>
+                  <p class="project-category">
+                    Created a Video Surveillance system that uses Machine
+                    Learning on a resource constrained system to identify &
+                    track people by rotating the security camera on a gimble in
+                    real time
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="software engineering"
+              >
+                <a
+                  href="https://github.com/Joel-De/PneumoniaDetection"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/PneumoniaDetect.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">PneumoniaDetect</h3>
+
+                  <p class="project-category">
+                    Designed and built dockerized application for Doctors with
+                    the ability to create accounts, patient profiles and detect
+                    Pneumonia in submitted X-Rays using ReactJS, FastAPI,
+                    PostgreSQL & Redis
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="hardware & embedded"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/intel-altera.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Real-Time Operating System</h3>
+
+                  <p class="project-category">
+                    Designed dynamic memory management system & scheduler for a
+                    Real-Time Operating System using C, on an Altera board.
+                    Implemented malloc(), free() and a priority based scheduler
+                    with preemption.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="hardware & embedded"
+              >
+                <a href="#">
+                  <figure class="project-img" height="100%">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/RISC-V.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">RISC-V Core</h3>
+
+                  <p class="project-category">
+                    Designed a fully pipelined RISC-V 32I compliant CPU core
+                    using Verilog, successfully functionality against RISC-V
+                    unit tests and executed several LeetCode problems on the
+                    core compiled from c++
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="3d design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/core-xy-printer.gif"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">3D Printer</h3>
+
+                  <p class="project-category">
+                    Designing a Core XY 3D printer completely from scratch to
+                    replace my aging Prusa I3 clone, with quality and
+                    reliability being the primary objectives.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+              >
+                <a
+                  href="https://github.com/Joel-De/Lunar-Lander-DQN"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://github.com/Joel-De/Lunar-Lander-DQN/raw/main/Assets/LunarLandingDemo.gif"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Autonomous Lunar Lander Simulation
+                  </h3>
+
+                  <p class="project-category">
+                    Designed an autonomous Lunar Lander using reinforcement
+                    learning (Double DQN) that was able to reliably land in a
+                    target zone
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="3d design"
+              >
+                <a
+                  href="https://github.com/Joel-De/3D-design-Soldiworks-Assemblies"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/falcon-heavy-combined.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Falcon Heavy Model</h3>
+
+                  <p class="project-category">
+                    Designed a to scale replica of the Falcon Heavy and ran CFD
+                    simulations to better understand hypersonic flow around the
+                    body
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.png"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Aug. 19, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Are Apple and Amazon Always Listening to You? An analysis
+                      of Low Resource Speech Detection
+                    </h3>
+
+                    <p class="blog-text">
+                      A deep dive into how Low Resource Speech Detection models
+                      work in our phones and smart devices - and a step by step
+                      walkthrough in building a state of the art model from
+                      scratch.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92276.20029627072!2d-79.46045733390105!3d43.71821160423614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1708897424282!5m2!1sen!2sca"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
