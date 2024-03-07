@@ -110,6 +110,7 @@
   #RESET
 \*-----------------------------------*/
 
+
 *,
 *::before,
 *::after {
@@ -585,6 +586,12 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 20px 25px;
 }
+.language-list-small {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    margin-top: 3%;
+  }
 
 .language-item {
   /* position: relative; */
